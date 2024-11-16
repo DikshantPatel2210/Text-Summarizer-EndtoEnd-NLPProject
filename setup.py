@@ -4,13 +4,11 @@ with open("README.md", "r", encoding = "utf-8") as f:
     long_description = f.read()
 
 
-
-
 __version__= '0.0.0'
 REPO_NAME = "Text-Summarizer-EndtoEnd-NLPProject"
 AUTHOR_USER_NAME = "DikshantPatel2210"
 AUTHOR_EMAIL = "diskhantpatel2210@gmail.com"
-SRC_REPO ="text-summarizer"
+SRC_REPO ="textSummarizer"
 
 setuptools.setup(
     name = SRC_REPO,
